@@ -8,6 +8,17 @@ header,footer{
     background: #f78768;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>.logo{
+    width: 100px;
+    margin: 15px 0;
+}
+
 header>h1{
     text-align: center;
 }
@@ -21,8 +32,15 @@ header ul, footer ul{
     padding: 15px 0;
 }
 
+header ul li a, footer ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
 main{
     max-width: 1200px;
+    min-height: 68.5vh;
     margin: auto;
 }
 
@@ -39,7 +57,7 @@ main>figure{
 }
 
 main>figure>img{
-    width: 900px;
+    width: 800px;
     border-radius: 20px;
 }
 
@@ -50,7 +68,7 @@ main>figure>figcaption{
 
 footer{
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
