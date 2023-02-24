@@ -47,3 +47,40 @@ main>figure>figcaption{
     font-size: 2rem;
     padding-bottom: 15px;
 }
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Style Formulaire contact */
+
+.coordonnee{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labels{
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.champs{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+#message{
+    margin-top: 5px;
+}
+
+#submit{
+    width: 10vw;
+    height: 5vh;
+    margin: 15px 0;
+}
