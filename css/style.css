@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,footer{
+    background: #f78768;
+}
+
+header>h1{
+    text-align: center;
+}
+
+header ul, footer ul{
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+main>h2{
+    text-align: center;
+    padding: 15px 0;
+}
+
+main>figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main>figure>img{
+    width: 900px;
+    border-radius: 20px;
+}
+
+main>figure>figcaption{
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
